@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 import JSONDATA from "./MOCK_DATA.json";
 import { useState } from "react";
@@ -15,11 +16,13 @@ function App() {
           setSearchTerm(event.target.value);
         }}
       />
-      {JSONDATA.filter((val)=>{
-        if(searchTerm == ""){
-          return val
-        }else if(val.product_name.toLowerCase().includes(searchTerm.toLowerCase())){
-          return val
+      {JSONDATA.filter((val) => {
+        if (searchTerm == "") {
+          return val;
+        } else if (
+          val.product_name.toLowerCase().includes(searchTerm.toLowerCase())
+        ) {
+          return val;
         }
       }).map((val, key) => {
         return (

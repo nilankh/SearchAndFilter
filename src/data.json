@@ -1,0 +1,16 @@
+[
+  { "id": "1", "product_name": "Iphone XR", "tag": "Apple" },
+  { "id": "2", "product_name": "Samsung Galaxy A71", "tag": "Samsung" },
+  { "id": "3", "product_name": "Iphone 7 plus", "tag": "Apple" },
+  { "id": "4", "product_name": "Samsung A51", "tag": "Samsung" },
+  { "id": "5", "product_name": "Nokia 6.1", "tag": "Nokia" },
+  { "id": "6", "product_name": "Iphone 13 plus", "tag": "Apple" },
+  { "id": "7", "product_name": "Samsung Note plus", "tag": "Samsung" },
+  { "id": "8", "product_name": "Dry iron ", "tag": "Iron" },
+  { "id": "9", "product_name": "Dry iron India", "tag": "Iron" },
+  { "id": "10", "product_name": "Milton bottle", "tag": "Milton" },
+  { "id": "11", "product_name": "Milton thermus", "tag": "Milton" },
+  { "id": "12", "product_name": "Iphone charger", "tag": "Charger" },
+  { "id": "13", "product_name": "Samsung charger", "tag": "Charger" },
+  { "id": "14", "product_name": "Iron free", "tag": "Iron" }
+]
