@@ -15,7 +15,13 @@ function App() {
           setSearchTerm(event.target.value);
         }}
       />
-      {JSONDATA.map((val, key) => {
+      {JSONDATA.filter((val)=>{
+        if(searchTerm == ""){
+          return val
+        }else if(val.product_name.toLowerCase().includes(searchTerm.toLowerCase())){
+          return val
+        }
+      }).map((val, key) => {
         return (
           <div className="user" key={key}>
             <p>{val.product_name}</p>
