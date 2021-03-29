@@ -12,5 +12,5 @@
   { "id": "11", "product_name": "Milton thermus", "tag": "Milton" },
   { "id": "12", "product_name": "Iphone charger", "tag": "Charger" },
   { "id": "13", "product_name": "Samsung charger", "tag": "Charger" },
-  { "id": "14", "product_name": "Iron free", "tag": "Iron" }
+  { "id": "14", "product_name": "Iron free", "tag": "Iron"}
 ]
